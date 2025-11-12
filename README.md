@@ -107,7 +107,7 @@ Our primary objective is to explore and develop techniques that improve the effi
 - **Network Distance Metrics**: We analyzed various distance measures to assess their effectiveness in identifying well-connected hubs and areas that require improved connectivity.
 - **Resistance Metric**: Demonstrated effectiveness in detecting both well-connected hubs and regions needing better integration.
 - **Hybrid Metric**: Showed that adjusting the balance between travel cost, environmental impact, and network efficiency can yield optimized transportation routes.
-- **Rewiring Strategy**: Successfully modified network structures to enhance connectivity while reducing inefficiencies.
+- **Rewiring Strategy**: Successfully modified network structures to enhance connectivity whilst reducing inefficiencies.
 
 ## Contact
 For more informations, details or dataset repositories used in this project, feel free to reach out:
