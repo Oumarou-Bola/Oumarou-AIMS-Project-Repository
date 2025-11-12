@@ -110,7 +110,7 @@ Our primary objective is to explore and develop techniques that improve the effi
 - **Rewiring Strategy**: Successfully modified network structures to enhance connectivity while reducing inefficiencies.
 
 ## Contact
-For more information, feel free to reach out:
+For more informations, details or dataset repositories used in this project, feel free to reach out:
 📧 **oumarou@aims.ac.za**  
 <!--🔗 **Repository**: [GitHub Repository](https://github.com/OMB227/Oumarou-AIMS-Project-Repository.git)-->
 
