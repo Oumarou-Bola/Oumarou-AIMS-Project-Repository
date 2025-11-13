@@ -110,7 +110,7 @@ This is achieved using the **Floyd–Warshall all-pairs shortest paths algorithm
   <img src="Miscellaneous/Alg3_2025-11-13 120505.png">
 </p
 
-## Rewiring strategy
+#### Rewiring strategy
 
 Let $G = (V, E)$ be the original network, where $V$ and $E$ represent respectively the sets of nodes and the set of edges.  
 We have two shortest-path node–frequency distributions:
@@ -124,18 +124,22 @@ $$
 |C_{pq}| \ge |d_{pq}|
 $$
 
-Our goal is to modify the two distributions $\widetilde{f}_{C}(V)$ and $\widetilde{f}_{R}(V)$ so that they match as closely as possible, such that:
+Our goal is to modify the two distributions:
+- $\widetilde{f}_{C}(V)$, 
+- $\widetilde{f}_{R}(V)$
+
+so that they match as closely as possible, mathematically this reads:
 
 $$
 \forall \epsilon \ge 0,\ \forall v_i \in V,\quad 
-\left|\,\widetilde{f}_{C}(v_i) - \widetilde{f}_{R}(v_i)\,\right| \le \epsilon
+\left| \widetilde{f}_{C}(v_i) - \widetilde{f}_{R}(v_i) \right| \le \epsilon
 $$
 
 subject to the following constraints:
 
 $$
 \begin{cases}
-(i):\ \dfrac{\partial |V|}{\partial t} = \dfrac{\partial |E|}{\partial t} = 0, \\[6pt]
+(i):\ \dfrac{\partial |V|}{\partial t} = \dfrac{\partial |E|}{\partial t} = 0, \\
 (ii):\ \forall (u', v') \in V' \times V',\ \exists\, P(u', v') \in E'
 \end{cases}
 $$
@@ -157,30 +161,30 @@ Our objective is to generate a **new network** by modifying the initial adjacenc
 
 Taking these constraints into account, the complete implementation algorithm of the rewiring strategy is presented below under the following hypotheses:
 #### Assumption
+
 In real-world scenarios, it is often impractical to establish connections or add edges between every pair of nodes, particularly in **road transportation** networks.
 However, for the purposes of this project, we assume the feasibility of adding or removing edges between pairs of nodes within a given transport network.  
 This assumption is more realistic for **airline transportation networks**, where long-range connections are more flexible and less physically constrained.
 
 ### Algorithm — Implementation of the Rewiring Strategy
+
 <p align="center">
   <img src="Miscellaneous/Alg4_2025-11-13 120505.png">
 </p
 
 This algorithm ensures that the rewired network structure moves toward an equilibrium where:
 
-- communicability-based frequency  
-  $$
-  \widetilde{f}_{C}(v_i)
-  $$
+- communicability-based frequency
+  
+   $$\widetilde{f}_{C} (v_i)$$
 
 matches
 
-- regular shortest-path frequency  
-  $$
-  \widetilde{f}_{R}(v_i)
-  $$
-as closely as possible,  
-while preserving the **connectivity** and **size** of the network.
+- regular shortest-path frequency
+  
+  $$\widetilde{f}_{R} (v_i)$$
+  
+as closely as possible, while preserving the **connectivity** and **size** of the network.
 
 
 
