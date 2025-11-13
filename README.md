@@ -115,7 +115,7 @@ $$
 \end{aligned}
 $$
 
-Furthermore, using the spectral theorem \ref{thm:spectral theorem} we have
+Furthermore, using the spectral decomposition theorem we have:
 
 $$
 A^k=Q\Delta^kQ^T=\sum\limits_{j=1}^n\lambda_j^k\phi_{j}\phi_{j}^T
@@ -186,14 +186,14 @@ Where
 - $\widetilde{S}(p,q)$: represents the sets of edges in the shortest path between the nodes $p$ and $q$.
 
 **Proposition.**  
-The introduced $\text{CO}_2$ emission quantification metric $d_co_2$ is a valid distance.
+The introduced $\text{CO}2$ emission quantification metric $d_{CO_2}$ is a valid distance.
 
 **Proof.**  
-For $d_{co_2}$ to be a distance, it needs to satisfy the conditions in definition \ref{sec: Distance function} :
+For $d_{co_2}$ to be a distance, it needs to satisfy the distance axioms:
 
 (i) **Non-negativity and identity:**
 
-By assumption $\forall i ,E(e_i)\geq 0 \,\, \Longrightarrow d_{co_2}=\sum\limits_{e_i \in \widetilde{S}(p,q)}E(e_i) \geq 0$ 
+By assumption $\forall i ,E(e_i)\geq 0  \Longrightarrow d_{co_2}=\sum\limits_{e_i \in \widetilde{S}(p,q)}E(e_i) \geq 0$ 
 
 Also, 
 
@@ -237,7 +237,7 @@ d_{co_2}(p,q)&=\displaystyle{\sum\limits_{e_i \in \widetilde{S}(p,q)}E(e_i) }\\
 \end{aligned}
 $$
 
-Hence the triangular inequality holds, therefore $d_{co_2}$ is a distance.
+Hence the triangular inequality holds which finally implies $d_{CO_2}$ is a distance.
 
 We are now ready to define our new hybrid measure of network distances as a weighted sum of the environmental impact contribution ($\text{CO}_2$ emitted), the shortest path distance contribution and the communicability distance contribution. Define
 
@@ -245,13 +245,13 @@ $$
 H_{pq}=\alpha d_{p,q} + \beta d_{co_2}(p,q) + \gamma C_{pq}
 $$
 
-with $\alpha$ ,$\beta$ ,$\gamma \geq 0$ positive constant parameters determining the significance of each metric. We need to check whether $H$ is a valid metric.
+with $\alpha$, $\beta$, $\gamma \geq 0$ positive constant parameters determining the significance of each metric. We need to check whether $H$ is a valid metric.
 
 **Proposition.**  
 The novel hybrid measure of network distance $H$ is a valid distance function on $V(G)$.
 
 **Proof.**  
-For $H$ to be a distance, it needs to satisfy the conditions in definition \ref{sec: Distance function}$:$
+For $H$ to be a distance, it needs to satisfy the distance axioms:
 
 (i) **Non-negativity and identity:**
 
@@ -300,7 +300,7 @@ $$
 \begin{aligned}
 H_{pq} &\leq \alpha \left( d_{pw}+d_{wq} \right)+\beta\left(d_{co_2}(p,w)+d_{co_2}(w,q)\right)+\gamma \left(C_{pw}+C_{wq}\right)  \\
 &\leq \left(\alpha d_{pw}+\beta d_{co_2}(p,w)+C_{pw}\right) +\left(\alpha d_{wq}+\beta d_{co_2}(w,q) +\gamma C_{wq}  \right) \\
-&\leq H_{pw}+H_{wq}    
+&\leq H_{pw} + H_{wq}    
 \end{aligned}
 $$
 
