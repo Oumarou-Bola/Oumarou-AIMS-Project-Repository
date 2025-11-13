@@ -6,7 +6,7 @@ To implement the novel hybrid measure, we first need to compute the communicabil
 
 ### **Definition — Communicability Distance Matrix**
 
-Let \( G=(V,E) \) be a network, and let
+Let $G=(V,E)$ be a network, and let
 
 $$
 S=[C_{11},C_{22},\cdots,C_{nn}]^T
@@ -47,8 +47,7 @@ Using the definition above and considering the fact that in a transport network,
 ### a) **Implementation of the Communicability Distance in Python**
 
 The first step consists of implementing the communicability distance function in Python.  
-The implemented algorithm is given below and the source code can be found in our project repository:  
-[**GitHub-Transport-Network**](https://github.com/OMB227/Oumarou-AIMS-Project-Repository.git)
+The implemented algorithm is given below:
 
 #### **Algorithm 1: Communicability Distance Matrix — Heat-map Visualisation**
 
