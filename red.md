@@ -50,6 +50,9 @@ The first step consists of implementing the communicability distance function in
 The implemented algorithm is given below:
 
 #### **Algorithm 1: Communicability Distance Matrix — Heat-map Visualisation**
+<p align="center">
+  <img src="FOLDER_NAME/IMAGE_NAME.png">
+</p>
 
 Algorithm: Communicability Distance Matrix - Heat-map Visualisation
 
