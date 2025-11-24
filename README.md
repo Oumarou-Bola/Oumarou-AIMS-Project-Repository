@@ -419,7 +419,7 @@ This is achieved using the **Floyd–Warshall all-pairs shortest paths algorithm
   <img src="Miscellaneous/Alg3_2025-11-13 120505.png">
 </p
 
-#### Rewiring strategy
+## Rewiring strategy
 
 Let $G = (V, E)$ be the original network, where $V$ and $E$ represent respectively the sets of nodes and the set of edges.  
 We have two shortest-path node–frequency distributions:
@@ -455,6 +455,11 @@ $$
 
 Condition **(i)** ensures that the number of nodes and edges remains constant,  
 and condition **(ii)** ensures that the rewired graph $G' = (V', E')$ remains **connected**.
+
+## Mathematical Formalism
+
+
+
 
 ---
 ## Implementation of the rewiring strategy
