@@ -6,16 +6,19 @@ Given a connected graph $G=(V,E)$, we aim to rewire the graph while preserving t
 
 Let $G=(V,E)$ be a simple, connected, undirected graph with $|V|=n$ nodes and $|E|=m$ edges. We fix the labeled vertex set:
 
+$$V =\\{
+1,\dots,n  
+\\}
 $$
-V = \{ 1,\dots,n \}.
-$$
+
+<!--{ A' : A'^T = A', diag(A') = 0, ..., lambda2(...) > 0 }-->
 
 ## Graph Space
 
 Define the set of all connected graphs with the same number of nodes and edges as:
 
 $$
-\mathcal{G}_{n,m}^{\mathrm{conn}} = {\, G'=(V,E') : |E'|=m,\; G' \text{ connected} \, }.
+\mathcal{G}_{n,m}^{\mathrm{conn}} = \\{ G'=(V,E') : |E'|=m \; G' \text{ connected} \\}.
 $$
 
 Each graph $G'$ is represented by a symmetric adjacency matrix:
@@ -45,7 +48,9 @@ $$
 Feasible adjacency matrices:
 
 $$
-\mathbf{A} = \{ A' : A'^T = A', \mathrm{diag}(A') = 0, \sum_{i<j} a'_{ij} = m,  \lambda_2(D' - A') > 0 \}
+A = \\{ 
+A' : A'^T = A', \\mathrm{diag}(A') = 0, \sum_{i<j} a'_{ij} = m,  \lambda_2(D' - A') > 0 
+\\}
 $$
 
 
