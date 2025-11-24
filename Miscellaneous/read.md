@@ -7,7 +7,7 @@ Given a connected graph $G=(V,E)$, we aim to rewire the graph while preserving t
 Let $G=(V,E)$ be a simple, connected, undirected graph with $|V|=n$ nodes and $|E|=m$ edges. We fix the labeled vertex set:
 
 $$
-V = \{1,\dots,n\}.
+V = \{ 1,\dots,n \}.
 $$
 
 ## Graph Space
@@ -99,8 +99,8 @@ $$
 \end{aligned}}
 $$
 
-Equivalent:
+which can be written equivalently as:
 
 $$
-\min_{G'\in \mathcal{G}_{n,m}^{\mathrm{conn}}}\|	\tilde f_C(G')-	\tilde f_R(G')\|_p.
+\min_{G'\in \mathcal{G}_{n,m}^{\mathrm{conn}}}\||	\tilde f_C(G')-	\tilde f_R(G')\||_p.
 $$
