@@ -48,12 +48,10 @@ $$
 Feasible adjacency matrices:
 
 $$
-A = \\{ 
-A' : A'^T = A', \\mathrm{diag}(A') = 0, \sum_{i<j} a'_{ij} = m,  \lambda_2(D' - A') > 0 
-\\}
+\mathcal{A} = { 
+A' : A'^T = A', \mathrm{diag}(A') = 0, \sum_{i<j} a'_{ij} = m,  \lambda_2(D' - A') > 0 
+}
 $$
-
-
 
 
 ## Shortest-Path Node–Frequency Distributions
