@@ -39,19 +39,22 @@ $$
 \sum_{j=1}^n a'_{ij}=d_i.
 $$
 
-Connectivity:
+- ### Connectivity:
 
 $$
 G' \text{ is connected} \Longleftrightarrow \lambda_2(D'-A')>0.
 $$
 
-Feasible adjacency matrices:
+- ### Feasible adjacency matrices:
 
-$$
+<!--$$
 \mathcal{A} = { 
 A' : A'^T = A', \mathrm{diag}(A') = 0, \sum_{i<j} a'_{ij} = m,  \lambda_2(D' - A') > 0 
-}
-$$
+} 
+$$ -->
+<p align="center">
+  <img src="math_A_set.svg" style="max-width:600px; width:100%;" alt="Equation A" />
+</p>
 
 
 ## Shortest-Path Node–Frequency Distributions
