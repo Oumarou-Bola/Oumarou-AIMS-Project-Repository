@@ -1,6 +1,6 @@
 # Graph Rewiring: Mathematical Formulation
 
-Given a connected graph $G=(V,E)$, we aim to rewire the graph while preserving the number of nodes and edges such that the node–frequency distributions associated with two types of shortest paths become as similar as possible.
+Given a connected graph $G=(V,E)$, we aim to rewire the graph while preserving the number of nodes and edges such that the discrepancy between node–frequency distributions associated with two types of shortest paths is minimized.
 
 ## Rewiring Strategy: Formal Mathematical Formulation
 
@@ -33,13 +33,13 @@ $$
 a'_{ij}=a'_{ji},\quad a'_{ii}=0,\quad \sum_{1\le i<j\le n} a'_{ij}=m.
 $$
 
-If preserving degree sequence:
+Along with the degree sequence preservation constraint:
 
 $$
 \sum_{j=1}^n a'_{ij}=d_i.
 $$
 
-- ### Connectivity:
+### Connectivity:
   The connectivity of the network via the Laplacian $L'=D'-A'$ satisfies:
 
 $$
@@ -91,7 +91,7 @@ $$
 In fact, for a rewired graph $G'$ with adjacency matrix $A'$:
 
 $$ 
-\tilde f_R^{A'}= \tilde f_R^{G'},       \tilde f_C^{A'}= \tilde f_C^{G'}.
+\tilde f_R^{A'}= \tilde f_R^{G'}, \hspace{1cm}     \tilde f_C^{A'}= \tilde f_C^{G'}.
 $$
 
 ## Distance Between Distributions
@@ -103,6 +103,7 @@ $$
 $$
 
 ## Optimization Problem
+In short the problem consists of finding a rewired graph $G'$ minimizing the discrepancy between nodes distributions as follow:
 
 $$
 \boxed{
