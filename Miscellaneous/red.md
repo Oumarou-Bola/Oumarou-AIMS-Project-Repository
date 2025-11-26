@@ -1,5 +1,5 @@
 ---
-## Communicability Distance Matrix
+## Communicability Distance Matrix.
 
 To implement the novel hybrid measure, we first need to compute the communicability distance matrix. This will provide the foundation for analysing the effectiveness of the new measure and for comparing the communicability shortest path distance with the regular shortest path distance.
 
