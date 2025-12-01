@@ -35,7 +35,7 @@ $$
 
 Where $\phi_{j}(p),\phi_{j}(q)$ are respectively the $p^{th}$ and $q^{th}$ element of the $j^{th}$ orthonormal eigenvector of the adjacency matrix associated with the eigenvalue $\lambda_{j}$.
 
-In order to fully understand the communicability function, it is interesting to look at the physical analogy of this concept. Indeed by considering the network as a quantum harmonic oscillator system submerged into a thermal bath with inverse temperature given by 
+In order to fully understand the communicability function, it is interesting to look at the physical analogy of this concept. Indeed by considering the network as a quantum harmonic oscillator system submerged into a thermal bath with inverse temperature given by: 
 
 $$
 \beta =\frac{1}{kT}
