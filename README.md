@@ -90,7 +90,7 @@ $$
 C_{pq}=\sum\limits_{k=1}^n\phi_{k}(p)\phi_{k}(q)e^{\lambda_k} 
 $$
 
-with $|V(G)|=n$. Thus using the equation \eqref{sec: comfunc} we can write 
+with $|V(G)|=n$. Thus, using the above equations we can write: 
 
 $$
 \begin{aligned}
