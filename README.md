@@ -1,8 +1,10 @@
 # Optimizing Cost in Transportation Networks
 
 ## Project Overview
+<div style="text-align: justify"> 
 This project focuses on proposing methods and techniques to address inefficiencies in global transportation network design. By studying various network distance measures, we implemented Python-based analysis to evaluate their performance across different transportation datasets.
-
+ </div>
+ 
 ### Project Supervisor
 **Dr. Philip Knight** – University of Strathclyde
 
@@ -20,6 +22,7 @@ Inside this repository, you will find:
 ## Theoretical Background
 
 ### Problem Definition
+
 Transportation networks often lack optimal efficiency, leading to increased travel costs, congestion, and environmental impacts like CO₂ emissions. The goal of this study is to explore network distance metrics and develop strategies to optimize these networks, making them more cost-effective and sustainable.
 
 
