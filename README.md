@@ -2,7 +2,7 @@
 
 ## Project Overview
 <div style="text-align: justify"> 
-This project focuses on proposing methods and techniques to address inefficiencies in global transportation network design. By studying various network distance measures, we implemented Python-based analysis to evaluate their performance across different transportation datasets.
+This project focuses on proposing methods and techniques to address inefficiencies in global transportation network design. By studying various network distance measures, we implemented Python-based analysis to evaluate their performance across different transportation datasets .
  </div>
  
 ### Project Supervisor
