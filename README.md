@@ -627,7 +627,9 @@ Our primary objective is to explore and develop techniques that improve the effi
 - **Resistance Metric**: Demonstrated effectiveness in detecting both well-connected hubs and regions needing better integration.
 - **Hybrid Metric**: Showed that adjusting the balance between travel cost, environmental impact, and network efficiency can yield optimized transportation routes.
 - **Rewiring Strategy**: Successfully modified network structures to enhance connectivity whilst reducing inefficiencies.
-
+- 
+## Post Sriptum
+Arxiv Preprint to be submit in a near future.
 ## Contact
 For more information feel free to reach out:  
 📧 **oumarou@aims.ac.za**  
