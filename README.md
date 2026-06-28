@@ -30,7 +30,7 @@ Transportation networks often lack optimal efficiency, leading to increased trav
 
 ### Communicability
 
-The analysis of complex networks has demanded an increasing number of theoretical tools needed for extracting useful information about their non trivial structured. Many of the topological properties that produce the unique features of complex network emerge naturally by embedding them into hyperbolic space. In fact the communicability function provides information about how well-communicated a pair of nodes is in a connected network. The communicability between the pair of nodes $(p,q)$ is given by equation below. Given that most of the transportation network we will deal with in this work are undirected, by using the spectral theorem the communicability function can be expressed as:
+The analysis of complex networks has demanded an increasing number of theoretical tools needed for extracting useful information about their non trivial structured. Many of the topological properties that produce the unique features of complex network emerge naturally by embedding them into hyperbolic space. In fact the communicability function provides information about how well-communicated a pair of nodes is in a connected network. The communicability between the pair of nodes $(p,q)$ is given by the equation below. Given that most of the transportation networks we will deal with in this work are undirected, by using the spectral theorem the communicability function can be expressed as:
 
 $$
 C_{pq}=\sum\limits_{j=1}^n\phi_{j}(p)\phi_{j}(q)e^{\lambda_{j}}
@@ -627,7 +627,7 @@ Our primary objective is to explore and develop techniques that improve the effi
 - **Resistance Metric**: Demonstrated effectiveness in detecting both well-connected hubs and regions needing better integration.
 - **Hybrid Metric**: Showed that adjusting the balance between travel cost, environmental impact, and network efficiency can yield optimized transportation routes.
 - **Rewiring Strategy**: Successfully modified network structures to enhance connectivity whilst reducing inefficiencies.
-- 
+  
 ## Post Sriptum
 Arxiv Preprint to be submitted soon.
 ## Contact
