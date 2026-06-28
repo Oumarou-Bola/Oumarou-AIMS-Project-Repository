@@ -629,7 +629,7 @@ Our primary objective is to explore and develop techniques that improve the effi
 - **Rewiring Strategy**: Successfully modified network structures to enhance connectivity whilst reducing inefficiencies.
 - 
 ## Post Sriptum
-Arxiv Preprint to be submit in a near future.
+Arxiv Preprint to be submitted soon.
 ## Contact
 For more information feel free to reach out:  
 📧 **oumarou@aims.ac.za**  
